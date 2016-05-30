@@ -1,0 +1,16 @@
+<h3>About us</h3>
+<p>Joomlaplates was founded by Peter Kuhlmann in the year 2007 in Germany.<br /> We are a small creative company, specializing in Joomla web design and Template development and build lightweight, affordable, and usable Joomla Templates for Joomla Content Management System.</p>
+<hr style="margin:30px 0" />
+<p style="font-size:20px;font-weight:100; margin-top:20px">JoomlaPlates.com</p>
+<p><i class="uk-icon-home"></i> Würzburger Str 13, DE-63811 Stockstadt</p>
+<p><i class="uk-icon-phone"></i> +49 6027.979.5825</p>
+<p><i class="uk-icon-phone"></i> +49 176-23569515</p>
+<p><i class="uk-icon-envelope-o"></i> support@joomlaplates.com</p>
+<p><i class="uk-icon-clock-o"></i> Mo-Fr: 10.00 - 18.00 GMT+2</p>
+<hr style="margin-top:30px"/>
+<p><a style="color:#fff;margin-top:20px" class="uk-button uk-button-default" href="#">Please feel free to contact us!</a></p>
+
+git init .
+git remote add origin git@github.com:user/repo.git
+git fetch origin
+git checkout master
