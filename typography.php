@@ -24,7 +24,7 @@ add_action( 'beans_post_body_append_markup', 'example_typography_content' );
 function example_typography_content() {
 
 	?>
-	<hr class="uk-grid-divider">
+	<hr class="grid-divider">
 	<div class="uk-grid">
 	    <div class="uk-width-1-1" data-uk-margin>
 	        <div class="uk-button-group">
