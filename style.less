@@ -2,3 +2,198 @@
  * In this file, you may style your site using CSS or LESS as well as overwrite UIkit LESS variables.
  * Make sure to enable development mode via the Admin->Appearance->Settings option while working on your website. LESS will then be processed on the fly.
  */
+
+/* Font
+ ========================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville|Lato);
+
+/* Header modification
+ ========================================================================== */
+
+.tm-header {
+    color: @text-contrast-color;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: none;
+    background-color: @global-primary-background;
+}
+
+.tm-header.uk-active {
+    color: @text-contrast-color;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: @global-primary-background;
+}
+
+/* Bar modification
+ ========================================================================== */
+ 
+.blue-header-bar {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #216694;
+    font-size: @text-small-font-size;
+    text-transform: uppercase;
+    font-family: 'Lato', serif;
+	line-height: @text-small-line-height;
+}
+
+.blue-header-bar a {
+	font-family: 'Lato', serif;
+	line-height: @text-small-line-height;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+	&:hover,
+	&:active {
+		color: @text-contrast-color;
+		text-decoration: none;
+	}
+}
+
+.blue-section-bar {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #216694;
+    font-size: @text-small-font-size;
+    text-transform: uppercase;
+    font-family: 'Lato', serif;
+	line-height: @text-small-line-height;
+}
+
+.blue-section-bar a {
+	font-family: 'Lato', serif;
+	line-height: @text-small-line-height;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+	&:hover,
+	&:active {
+		color: @text-contrast-color;
+		text-decoration: none;
+	}
+}
+
+.blue-content-bar {
+    font-size: @text-small-font-size;
+    text-transform: uppercase;
+    color: @text-muted-color;
+    font-family: 'Lato', serif;
+	line-height: @text-small-line-height;
+}
+
+.blue-content-bar a {
+	color: @global-link-color;
+	font-family: 'Lato', serif;
+	font-size: @text-small-font-size;
+	line-height: @text-small-line-height;
+	// padding-left: 10%;
+	// padding-right: 10%;
+	// margin-right: 10px;
+	// margin-left: 10px;
+	
+	&:hover,
+	&:active {
+		color: @text-contrast-color;
+		text-decoration: none;
+	}
+}
+
+.blue-contact-bar a {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.blue-quote-bar {
+    background-color: @global-primary-background;
+}
+
+.widget_quotescollection .widget-title {
+    display: none;
+}
+
+.widget_quotescollection {
+    padding-top: 12px;
+    font-family: 'Lato', serif;
+    font-size: @text-large-font-size;
+}
+
+.blue-splash-bar {
+    // background-color: @global-primary-background;
+    color: @text-contrast-color;
+    // background-image: url(https://mk-blue-jcmrs.c9users.io/wp-content/uploads/vestigingen.jpg);
+    // background-position: 50% 50%;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#23538a+0,a7cfdf+100 */
+    background: rgb(35,83,138); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(35,83,138) 0%, rgb(167,207,223) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(35,83,138) 0%,rgb(167,207,223) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgb(35,83,138) 0%,rgb(167,207,223) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23538a', endColorstr='#a7cfdf',GradientType=0 ); /* IE6-9 */
+}
+
+.blue-location-bar {
+    background-color: @global-primary-background;
+}
+
+.tm-footer {
+    border-top: 1px solid @global-border;
+}
+
+.tm-footer a {
+	color: @global-link-color;
+	font-family: 'Lato', serif;
+	line-height: @text-small-line-height;
+	// padding-left: 10%;
+	// padding-right: 10%;
+	margin-right: 10px;
+	margin-left: 10px;
+	
+	&:hover,
+	&:active {
+		color: @global-link-hover-color;
+		text-decoration: none;
+	}
+}
+
+/* Article Header modification
+ ========================================================================== */
+
+.uk-article-title {
+    text-transform: uppercase;
+    // border-left: 2px solid @global-primary-background;
+	font-family: 'Lato', sans-serif;
+}
+
+.tm-article-image {
+    border-bottom: 2px solid @global-primary-background;
+}
+
+.tm-main {
+    background-color: #fff;
+}
+
+.tm-content {
+    background-color: #ECF0F1;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+    padding-left: 10px;
+    border-left: 2px solid @global-primary-background;
+}
+
+.uk-text-uppercase { 
+    text-transform: uppercase; 
+}
